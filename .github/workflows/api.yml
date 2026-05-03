@@ -31,7 +31,7 @@ jobs:
         run: bash scripts/run_linter.sh
 
       - name: Type Checking
-        run: bash scripts/run_type_checking.sh
+        run: bash scripts/run_type_check.sh
 
   docker:
     runs-on: ubuntu-latest
